@@ -1,0 +1,49 @@
+#firstdiv {
+    float: left;
+}
+#seconddiv {
+    float:right
+}
+#form1 {
+    display: inline-block;
+    width: 285px;
+    height: 300px;
+    border: 9px solid #f0ce10;
+    box-shadow: 9px 9px 1px #4d3ecf;
+    padding: 20px;
+    margin: 0px 10px;
+    float: left;
+   }
+   #form2 {
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    border: 9px solid #fc7c3c;
+    box-shadow: 9px 9px 1px #4d3ecf;
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+    float: right;
+   }
+   #form3 {
+    display: inline-block;
+    width: 250px;
+    height: 450px;
+    border: 9px solid #f0ce10;
+    box-shadow: 9px 9px 1px #4d3ecf;
+    padding: 20px;
+    margin: 0px 10px;
+float: left;}
+    #form4 {
+        display: inline-block;
+        width: 250px;
+        height: 350px;
+        border: 9px solid #fc7c3c;
+        box-shadow: 9px 9px 1px #4d3ecf;
+        padding: 20px;
+        margin: 0px 20px 20px 20px;
+        float: right;
+    }
+
+div { margin: 15px;}
+input {padding: 3px 30px;
+border-radius: 10px;}

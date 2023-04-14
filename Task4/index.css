@@ -1,0 +1,20 @@
+.main {width: 800px;
+height: 600px;
+background-color: #EBEBF3;
+position: relative;}
+.a {width: 250px;
+height: 250px;
+border-radius: 50%;
+background-color: #F161A3;
+position: absolute;
+top: 20px; left: 120px;}
+form {width: 220px;
+height: 250px;
+background-color:white;
+position: absolute;
+top: 80px; left: 250px;
+padding: 30px;
+border-radius: 5%;}
+#button {background-color: #e28343;
+color: #EBEBF3;}
+.divforform {margin: 10px;}

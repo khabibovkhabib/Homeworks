@@ -19,17 +19,13 @@
 
 .navbar {
     width: 100%;
-    height: 80px;
+    height: 94px;
     background-color: #155bd5;
     position: fixed;
     display: flex;
+    align-items: center;
 }
 
-.body {
-    width: 80%;
-    height: 1000px;
-    background-color: rgb(170, 125, 57);
-}
 
 ul {
     list-style-type: none;
@@ -46,8 +42,77 @@ li a {
     text-decoration: none;
 }
 
-img {
+.12 {
     width: 185px;
     height: 40px;
     margin: 20px 80px;
+}
+
+.body1 {
+    width: 100%;
+    height: 850px;
+    background-color: #155bd5;
+    display: flex;
+    padding-top: 94px;
+    justify-content: center;
+    align-items: center;
+}
+
+.body2 {
+    width: 80%;
+    height: 800px;
+    background-color: #0a224b;
+}
+
+.body3 {
+    width: 80%;
+    height: 800px;
+    background-color: #051125;
+}
+
+.body1words {
+    width: 546px;
+    height: 436.8px;
+    background-color: #155bd5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body1picture {
+    width: 546px;
+    height: 436.8px;
+    background-color: #5b8adb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.girl {
+    width: 546px;
+    height: 436.8px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+p {
+    color: #adb7c4;
+}
+
+.body1words div a {
+    background-color: white;
+    color: #155bd5;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.body1words div {
+    margin: 10px;
 }

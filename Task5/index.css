@@ -6,8 +6,8 @@
 
 .maindiv {
     width: 100%;
-    height: 1500px;
-    background-color: #f1f1f1;
+    height: 4500px;
+    background-color: #fafafa;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -24,6 +24,7 @@
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -36,6 +37,7 @@ ul {
 }
 
 li a {
+    font-size: 25px;
     padding: 12px 16px;
     background-color: #155bd5;
     color: white;
@@ -60,14 +62,20 @@ li a {
 
 .body2 {
     width: 80%;
-    height: 800px;
-    background-color: #0a224b;
+    height: 700px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .body3 {
     width: 80%;
     height: 800px;
-    background-color: #051125;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body1words {
@@ -105,14 +113,83 @@ p {
     color: #adb7c4;
 }
 
+.body1words div {
+    width: 600px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
 .body1words div a {
     background-color: white;
     color: #155bd5;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 25px;
     border-radius: 5px;
+    font-family: lato;
+    margin: 10px;
+}
+
+.body1words span {
+    color: white;
+    font-size: 35px;
 }
 
 .body1words div {
     margin: 10px;
 }
+
+.menu {
+    width: 35px;
+    height: 35px;
+}
+
+.body2picture {
+    width: 576px;
+    height: 562.362px;
+    background-color: #5b8adb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.body2words {
+    width: 576px;
+    height: 562.362px;
+    background-color: #5b8adb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.body3head {
+    width: 526px;
+    height: 159.700px;
+    background-color: #5b8adb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.body3body {
+    width: 1000px;
+    height: 600px;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.ourbestservices {width: 300px;
+height: 250px;
+background-color: #5b8adb;}

@@ -107,6 +107,7 @@ li a {
 h1 {
     color: white;
     font-size: 45px;
+    margin: 20px;
 }
 
 p {
@@ -149,7 +150,7 @@ p {
 .body2picture {
     width: 576px;
     height: 562.362px;
-    background-color: #5b8adb;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,11 +161,12 @@ p {
 .body2words {
     width: 576px;
     height: 562.362px;
-    background-color: #5b8adb;
+    background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
     border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .body3head {
@@ -181,7 +183,7 @@ p {
 .body3body {
     width: 1000px;
     height: 600px;
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -190,6 +192,47 @@ p {
     margin-bottom: 20px;
     flex-wrap: wrap;
 }
-.ourbestservices {width: 300px;
-height: 250px;
-background-color: #5b8adb;}
+
+.ourbestservices {
+    width: 300px;
+    height: 250px;
+    background-color: #5b8adb;
+}
+
+.body2words1 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e4e4e6;
+    border-radius: 5px;
+}
+
+h6 {
+    font-size: 15px;
+
+}
+
+.buttonblue {
+    background-color: #155bd5;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonwhite {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.body2words p {color: #4e4e4e;}
+.buttonwhite:hover {
+    color: #155bd5;
+} 

@@ -311,14 +311,13 @@ hr {
     justify-content: center;
 }
 
-.body3body :hover {
+.body3body1:hover {
     box-shadow: 1px 1px 15px #4e4e4e;
 }
 
 .body3body1 {
     width: 405px;
     height: 301.6px;
-
     border-radius: 10px;
     margin: 10px;
 }
@@ -334,3 +333,10 @@ hr {
     justify-content: center;
     align-items: center;
 }
+
+.body3body1 p {
+    font-size: 18px;
+    margin: 10px;
+    color: #4e4e4e;
+}
+.body3body1 h4 {margin: 10px;}

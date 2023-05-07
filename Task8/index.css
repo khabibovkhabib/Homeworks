@@ -11,6 +11,7 @@
   position: fixed;
   display: flex;
   justify-content: center;
+  z-index: 999;
 }
 
 .navbar .navcontainer {
@@ -33,12 +34,27 @@
 .navbar .navcontainer .navleft li {
   list-style-type: none;
   float: left;
-  padding: 20px;
+  padding: 15px;
 }
 
 .navbar .navcontainer .navleft a {
   text-decoration: none;
   color: white;
+}
+
+.navbar .navcontainer .navleft a::after {
+  content: "";
+  display: block;
+ width: 0;
+  height: 3px;
+}
+
+.navbar .navcontainer .navleft a:hover::after {
+  background-color: white;
+  display: block;
+  width: 100%;
+  height: 3px;
+  transition: 0.7s;
 }
 
 .navbar .navcontainer .navleft img {
@@ -60,28 +76,62 @@
 
 .ourservices {
   width: 100%;
-  height: 800px;
+  height: 770px;
   background: linear-gradient(to right, #00085c, #0b0d21);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+
 }
 
-.ourservicescontainer {
+.ourservices .ourservicescontainer {
   width: 80%;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 999px;
+  position: relative;
+  margin-top: 50px;
+
 }
-.ourservicescontainer img{width: 880px;}
-.bodywords {
+
+.ourservices .ourservicescontainer img {
+  width: 880px;
+  position: absolute;
+  top: 200px;
+  right: 30px;
+}
+
+.ourservices .ourservicescontainer .bodywords {
   display: flex;
   flex-direction: column;
   color: white;
   margin: 10px;
   width: 470px;
   height: 315.4px;
-  z-index: 999px;
+  position: absolute;
+  top: 200px;
+}
+
+.ourservices .ourservicescontainer .bodywords h1 {
+  font-size: 60px;
+}
+
+.ourservices .ourservicescontainer .bodywords p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.ourservices .ourservicescontainer .bodywords a {
+  width: 155px;
+  height: 53px;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: linear-gradient(#fe4595, #fe6c6d);
 }

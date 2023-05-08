@@ -1,4 +1,5 @@
 $color_1: white;
+$color_2: #fe4595;
 $background-color_1: white;
 
 * {
@@ -66,6 +67,33 @@ $background-color_1: white;
 			justify-content: center;
 			align-items: center;
 			cursor: pointer;
+			text-transform: uppercase;
+			transition: all 1s;
+			position: relative;
+			overflow: hidden;
+			z-index: 1;
+			&:hover {
+				color: $color_2;
+				&::after {
+					transform: scale(1, 1);
+					transform-origin: bottom;
+				}
+			}
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				background-color: $background-color_1;
+				z-index: -1;
+				transition: 1s ease all;
+				transform: scale(0, 1);
+				transform-origin: top;
+				transition: transform 50ms cubic-bezier(0.86, 0, 0.07, 1);
+				transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+			}
 		}
 	}
 }

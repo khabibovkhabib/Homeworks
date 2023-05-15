@@ -62,13 +62,36 @@
     color: #3232f5;
 }
 
-.content p {
-    text-align: justify;
-    margin: 10px;
-    padding: 10px;
-    background-color: orangered;
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.content {
+    width: 88%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+#section-home {
+    background-color: black;
+}
+
+#section-service {
+    background-color: #0303a3;
+}
+
+#section-topdetails {
+    background-color: #3b3bff;
+}
+#section-gallery{background-color: #68698d;}
+
+#section-package{background-color: orangered;}
+#section-blog{background-color: #bb3200;}
+#section-contact{background-color: gray;}
 
 
 
@@ -76,10 +99,25 @@
 
 
 @media screen and (max-width: 768px) {
+
+    .navigation {
+        height: auto;
+        position: fixed;
+        background-color: white;
+    }
+
+    .row {
+        position: relative;
+    }
+
     .nav-left {
         flex-direction: column;
+        width: 300px;
         display: none;
         background-color: #3232f5;
+        position: absolute;
+        top: 50px;
+        right: 10px;
     }
 
     .nav-left a {

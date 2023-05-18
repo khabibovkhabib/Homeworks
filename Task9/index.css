@@ -65,6 +65,8 @@
     color: #3232f5;
 }
 
+/* Navigation ended*/
+
 .contents {
     z-index: -999;
     width: 100%;
@@ -74,33 +76,76 @@
     align-items: center;
     position: absolute;
     top: 100px;
-  }
-  .contents .content {
+}
+
+.contents .content {
     width: 88%;
     height: 400px;
     margin-bottom: 15px;
-  }
-  .contents #section-home {
+}
+
+/* contents ended */
+
+
+.contents #section-home {
     background-color: black;
-  }
-  .contents #section-service {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+.contents #section-home img {
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+
+.contents #section-home h1 {
+    z-index: 999;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contents #section-home a {
+    background-color: #5310aa;
+    position: absolute;
+    bottom: 200px;
+    left: 600px;
+    z-index: 999;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contents #section-service {
     background-color: #691e03;
-  }
-  .contents #section-topdetails {
+}
+
+.contents #section-topdetails {
     background-color: #c73905;
-  }
-  .contents #section-gallery {
+}
+
+.contents #section-gallery {
     background-color: #e43f04;
-  }
-  .contents #section-package {
+}
+
+.contents #section-package {
     background-color: orangered;
-  }
-  .contents #section-blog {
+}
+
+.contents #section-blog {
     background-color: #f36e3d;
-  }
-  .contents #section-contact {
+}
+
+.contents #section-contact {
     background-color: #f7b39a;
-  }
+}
 
 
 
@@ -150,5 +195,34 @@
         background-color: blue;
         margin-bottom: 5px;
         border-radius: 5px;
+    }
+
+    .contents #section-home {
+        background-color: black;
+        width: 100%;
+        height: 400px;
+    }
+
+    .contents #section-home h1 {
+        z-index: 999;
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .contents #section-home a {
+        background-color: #5310aa;
+        position: absolute;
+        bottom: 35px;
+        left: 115px;
+        z-index: 999;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
     }
 }

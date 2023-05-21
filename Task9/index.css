@@ -70,7 +70,7 @@
   align-items: center;
   position: absolute;
   top: 100px;
-  background-color: rgb(211, 211, 211);
+  background-color: #d3d3d3;
 }
 .contents .content {
   width: 100%;
@@ -82,7 +82,6 @@
 }
 .contents #section-home {
   position: relative;
-  background-color: #270c02;
   height: 800px;
 }
 .contents #section-home img {
@@ -110,7 +109,30 @@
   cursor: pointer;
 }
 .contents #section-service {
-  background-color: #691e03;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents #section-service article {
+  width: 660px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contents #section-service article .servicechild {
+  width: 300px;
+  height: 250px;
+  background-color: azure;
+  margin: 10px;
+}
+.contents #section-service .youtube {
+  width: 620px;
+  height: 500px;
+  background-color: #5a5bc2;
 }
 .contents #section-topdetails {
   background-color: #c73905;
@@ -166,16 +188,20 @@
     background-color: #251569;
     color: #008cff;
   }
-  .contents .content #section-home {
+  .contents {
+    width: 100%;
+    height: auto;
+  }
+  .contents .content {
+    width: 100%;
+  }
+  .contents #section-home {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 550px;
+    overflow: hidden;
   }
-  .contents .content #section-home img {
-    width: 100%;
-    height: 100%;
-  }
-  .contents .content #section-home h1 {
+  .contents #section-home h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,14 +211,27 @@
     font-size: 60px;
     text-align: center;
   }
-  .contents .content #section-home a {
+  .contents #section-home a {
     position: absolute;
-    bottom: 5px;
-    right: 7px;
+    bottom: 40px;
+    right: 100px;
     background-color: #4d39a3;
     color: white;
     border-radius: 15px;
-    padding: 3px 3px;
+    padding: 10px 35px;
     cursor: pointer;
+  }
+  .contents #section-service {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+  }
+  .contents article {
+    width: 100%;
+  }
+  .contents .youtube {
+    width: 100%;
+    height: 500px;
   }
 }/*# sourceMappingURL=index.css.map */

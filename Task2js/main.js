@@ -29,6 +29,17 @@ const persons = [
     },
 ];
 
+//MAPS//
+const names = persons.map(personsName => personsName.name);
+const heights = persons.map(personsHeight => personsHeight.height);
+const nameAndHeight = persons.map((nameAndHeight) => ({ name: nameAndHeight.name, height: nameAndHeight.height }));
+const firstNames = persons.map(firstName => firstName.name.split(' ')[0]);
+//FILTERS//
 const greatherThanHunderd = persons.filter(greatherThanHunderd => greatherThanHunderd.mass > 100);
 const lessThanTwoHunderd = persons.filter(lessThanTwoHunderd => lessThanTwoHunderd.height < 200);
-const genderFilter = persons.filter(genderFilter => genderFilter.gender === 'male');
+const genderFilterm = persons.filter(genderFilterm => genderFilterm.gender === 'male');
+const genderFilterf = persons.filter(genderFilterf => genderFilterf.gender === 'female');
+//SORTS//
+const sortForMass = persons.sort((a,b)=>a.mass-b.mass);
+const sortForMass = persons.sort((a,b)=>b.mass-a.mass);
+

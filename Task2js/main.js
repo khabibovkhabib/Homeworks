@@ -40,6 +40,9 @@ const lessThanTwoHunderd = persons.filter(lessThanTwoHunderd => lessThanTwoHunde
 const genderFilterm = persons.filter(genderFilterm => genderFilterm.gender === 'male');
 const genderFilterf = persons.filter(genderFilterf => genderFilterf.gender === 'female');
 //SORTS//
-const sortForMass = persons.sort((a,b)=>a.mass-b.mass);
-const sortForMass = persons.sort((a,b)=>b.mass-a.mass);
-
+const sortForMass = persons.sort((a, b) => a.mass - b.mass);
+// const sortForMass = persons.sort((a,b)=>b.mass-a.mass);
+const sortForHeight = persons.sort((a, b) => a.height - b.height);
+// const sortForHeight = persons.sort((a,b)=>b.height-a.height);
+const sortForName = persons.sort((a,b)=>{if (a.name<b.name) return-1; return 1});
+// const sortForName = persons.sort((a,b)=>{if (a.name>b.name) return-1; return 1});

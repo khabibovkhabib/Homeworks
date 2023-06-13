@@ -46,3 +46,17 @@ const sortForHeight = persons.sort((a, b) => a.height - b.height);
 // const sortForHeight = persons.sort((a,b)=>b.height-a.height);
 const sortForName = persons.sort((a,b)=>{if (a.name<b.name) return-1; return 1});
 // const sortForName = persons.sort((a,b)=>{if (a.name>b.name) return-1; return 1});
+const sortForGender = persons.sort((a,b)=>{if (a.gender>b.gender) return-1; return 1});
+//const sortForGender = persons.sort((a,b)=>{if (a.gender<b.gender) return-1; return 1});
+//EVERY//
+const allEyesBlue = persons.every(eyes=> eyes.eye_color==="blue");//False
+const massBiggerFourty = persons.every(mass=> mass.mass>40);//true
+const heightShorterTwoHunderd = persons.every(heighttwohunderd=> heighttwohunderd.height<200);//False
+const everyGender = persons.every(everygender=> everygender.gender==="male");//False
+//SOME//
+const someGender = persons.some(somegender=> somegender.gender==="male");//true
+const someEyesBlue = persons.some(eyes=> eyes.eye_color==="blue");//true
+const someHeight = persons.some(someheight=> someheight.height>210);//False
+const someMass = persons.some(mass=> mass.mass<50);//true
+
+

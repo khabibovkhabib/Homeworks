@@ -17,5 +17,9 @@ but.onclick = function incrementCounter(event) {
     count = count + 1;
     counterElem.innerHTML = count;
 };
+const changeImage = () => {
+    const image = document.getElementById('image');
 
+    image.src = 'https://i.imgur.com/lQO8B47.png';
+  }
 
